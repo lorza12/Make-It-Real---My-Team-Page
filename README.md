@@ -70,7 +70,7 @@ ir cada vez desarrollando mas destresa a la hora de organizar y enteder el compo
 
 <h1>Recursos utiles</h1>
 
-* [MaterialApoyo](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - (https://www.htmlhelp.com/es/reference/css/properties.html)
+* [MaterialApoyo](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - [MAp](https://www.htmlhelp.com/es/reference/css/properties.html)
 
 <h1>Expresiones de gratitud</h1>
 
