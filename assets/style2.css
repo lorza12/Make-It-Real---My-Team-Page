@@ -1,0 +1,62 @@
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#team img {
+    width: 150px;
+}
+#team div {
+    display: block;
+    position: relative;
+    margin-right: 8%;
+}
+ #team .teamOne, .teamThree, .teamFive {
+    margin-bottom: 80px;
+}
+#team p {
+    position: absolute;
+    top: 0;
+    left: 113%;
+    width: 100%;
+    background: transparent;
+    transform-origin: 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    transform: rotate(90deg);
+    margin: 0 0 10px 0;
+}
+#team h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+@media (min-width: 1440px) {
+    .contFather {
+        width: 700px;
+        position: relative;
+        left: 25%;
+    }
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 10% 0 10% 0;
+    }
+marca_de_verificación_blanca
+ojos
+manos_levantadas
+
+
+
+
+
+10:44
+te comparto el codigo del team, le hice un mediaQ para ajustar en pantallas de desktop
+10:45
+y que se mantenga su organizacion, tambien modifique el contenedor padre, me quedo asi:
+10:45
+.contFather {
+    height: 100%;
+    text-align: left;
+    margin: 5%;
+}

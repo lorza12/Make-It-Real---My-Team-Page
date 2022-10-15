@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    background-color: white;
+    
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.containerFather {
+    height: 100%;
+    text-align: left;
+    
+}
+
+.header{
+    font-family: 'Poppins', sans-serif;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 5% 10% 5%;
+
+}
+
+.header h1{
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    
+
+}
+
+.header h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header p{
+    text-transform: capitalize;
+
+
+}
+
+
+
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#team img{
+    width: 100px;
+    
+    
+}
+#team div{
+    display: block;
+    position: relative;
+    margin-right: 8%;
+    
+}
+
+#team .team1, .team3, .team5 {
+    margin-bottom: 25px;
+}
+#team p {
+    position: absolute;
+    top: 0;
+    left: 113%;
+    width: 100%;
+    background: transparent;
+    transform-origin: 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    transform: rotate(90deg);
+    margin: 0 0 10px 0;
+}
+#team h3 {
+    font-size: 14px;
+    text-transform: capitalize
+
+
+
+}
+.piepag {
+    text-align: center;
+    color:gray;
+    margin-top: 5%;
+}
+
+@media(min-width: 1440px) {
+
+    body {
+        
+        justify-content: center;
+        margin: 0%;
+        
+        
+        
+    }
+
+   
+    .containerFather {
+        width: 500px;
+        position: relative;
+        left: 30%;
+        
+        
+
+
+    }
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 50% 0% 10% 0%;
+    }
+
+    .header div  {
+        
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+    .header div h1{
+        
+        margin-right: 30%;
+    }
+    .header .div .div2 {
+     
+        text-align: left;
+        display: block;
+        position: relative;
+
+
+    }
+
+  
+
+  
+    
+}
+     
+
