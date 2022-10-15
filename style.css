@@ -19,8 +19,7 @@
     font-family: 'Poppins', sans-serif;
     
     display: flex;
-    flex-wrap: wrap;
-    margin: 10% 5% 10% 5%;
+    margin: 0% 5% 0% 5%;
 
 }
 
@@ -47,10 +46,12 @@
 
 
 #team{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 
 }
 
@@ -91,7 +92,7 @@
 .piepag {
     text-align: center;
     color:gray;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 @media(min-width: 1440px) {
@@ -99,7 +100,8 @@
     body {
         
         justify-content: center;
-        margin: 0%;
+        margin: -10%;
+        margin-left: 0%;
         
         
         
@@ -107,6 +109,7 @@
 
    
     .containerFather {
+        
         width: 500px;
         position: relative;
         left: 30%;
@@ -116,6 +119,7 @@
 
     }
     .header {
+        
         display: flex;
         flex-wrap: nowrap;
         margin: 50% 0% 10% 0%;
@@ -125,22 +129,48 @@
         
         display: flex;
         flex-wrap: nowrap;
+        
+        
 
+        
     }
     .header div h1{
+        display: flex;
+        font-size: 20px;
+        flex-grow: 10;
+        margin-right: 5%;
+        flex-shrink: 0;
+        margin-top: 6%;
+        margin-left: 5%;
         
-        margin-right: 30%;
+        
     }
     .header .div .div2 {
-     
+        font-size: 10px;
+        display: flex;
+        flex-shrink: 20;
+        margin-right: 10%;
         text-align: left;
         display: block;
         position: relative;
+        margin-left: 10%;
 
 
     }
 
-  
+     p{
+        font-size: 10px;
+    }
+    .div h2{
+        font-size: 15px;
+    }
+   
+    .piepag {
+        text-align: center;
+        color:gray;
+        margin-top: 5%;
+        margin-right: 8%;
+    }
 
   
     
